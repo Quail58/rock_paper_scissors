@@ -15,6 +15,7 @@ function playerHand(){
     return player_choice.toLowerCase();        
 }
 
+// a function that plays one round of rock paper scissors
 function round(playerSelection, computerSelection){
     let play = true;
     while (play) {
@@ -31,6 +32,7 @@ function round(playerSelection, computerSelection){
     }
 }
 
+// plays the game
 const playerSelection = playerHand();
 const computerSelection = computerPlay();
 console.log(round(playerSelection, computerSelection))
