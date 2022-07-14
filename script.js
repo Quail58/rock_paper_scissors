@@ -30,12 +30,12 @@ function round(playerSelection, computerSelection){
 
 // trying to run a game that plays five times and picks a winner
 function gameOn(){
-    for (let i = 0; i < 5; i++){
+    for (let i = 0; i < 1000; i++){
         playerSelection = playerHand();
         computerSelection = computerPlay();
         round(playerSelection, computerSelection);
-        console.log(playerSelection);
-        console.log(computerSelection);
+        console.log("Player hand: " + playerSelection);
+        console.log("Copmuter hand: " + computerSelection);
         console.log("Player Score: " + playerScore);
         console.log("Computer Score: " + computerScore);
     
