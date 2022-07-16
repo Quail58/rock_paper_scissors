@@ -28,7 +28,7 @@ function round(playerSelection, computerSelection){
         }  
 }
 
-// trying to run a game that plays five times and picks a winner
+// plays a game of rock paper scissors best out of 5
 function gameOn(){
     for (let i = 0; i < 1000; i++){
         playerSelection = playerHand();
@@ -56,6 +56,4 @@ function gameOn(){
 // plays the game
 let playerScore = 0;
 let computerScore = 0;
-// playerSelection = "paper";
-// computerSelection = "paper";
 console.log(gameOn());
