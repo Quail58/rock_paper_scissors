@@ -56,4 +56,4 @@ function gameOn(){
 // plays the game
 let playerScore = 0;
 let computerScore = 0;
-console.log(gameOn());
+//console.log(gameOn());
