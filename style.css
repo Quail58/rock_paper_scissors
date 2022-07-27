@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scores {
+    display: flex;
+    align-items: center;
+}
+
+.welcome {
+    margin: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.explain {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+}
+
+#Rock {
+    margin: 15px;
+}
+
+#Paper {
+    margin: 15px;
+}
+
+#Scissors {
+    margin: 15px;
+}
+
+.player_score {
+    margin: 7.5px;
+}
+
+.computer_score {
+    margin: 7.5px;
+}
