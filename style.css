@@ -32,12 +32,13 @@ body {
 }
 
 .button {
-    margin: 15px;
+    margin: 30px;
     background-color: grey;
     font-weight: bolder;
     height: 150px;
     width: 150px;
     font-size: 25px;
+    border: none;
 }
 
 #scores {
