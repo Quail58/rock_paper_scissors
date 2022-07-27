@@ -33,14 +33,14 @@ function playerHand(a){
 // a function that plays one round of rock paper scissors
 function round(playerSelection, computerSelection){
         if( (playerSelection === "rock" && computerSelection === "rock") || (playerSelection === "scissors" && computerSelection === "scissors") || (playerSelection === "paper" && computerSelection === "paper") ){
-            let round = document.getElementById('instructions');
+            let round = document.getElementById('round');
             round.innerHTML = "It's a tie!"
         } else if ( (playerSelection === "rock" && computerSelection === "scissors") || (playerSelection === "paper" && computerSelection === "rock") || (playerSelection === "scissors" && computerSelection === "paper") ){
-            let round = document.getElementById('instructions');
+            let round = document.getElementById('round');
             round.innerHTML = "You win this round!"
             playerScore++;
         } else {
-            let round = document.getElementById('instructions');
+            let round = document.getElementById('round');
             round.innerHTML = "Computer wins this round!"
             computerScore++;
         }  
