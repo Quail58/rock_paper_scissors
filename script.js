@@ -57,31 +57,5 @@ function round(playerSelection, computerSelection){
             computerScore++;
         }  
 }
-
-// plays a game of rock paper scissors best  3 out of 5
-// function gameOn(){
-//     for (let i = 0; i < 1000; i++){
-//         playerSelection = playerHand();
-//         computerSelection = computerPlay();
-//         round(playerSelection, computerSelection);
-//         console.log("Player hand: " + playerSelection);
-//         console.log("Copmuter hand: " + computerSelection);
-//         console.log("Player Score: " + playerScore);
-//         console.log("Computer Score: " + computerScore);
-    
-//         if(playerScore === 3){
-//             console.log("Player wins the game!");
-//             break;
-//         } else if(computerScore === 3){
-//             console.log("Computer wins the game!");
-//             break;        
-//         } else {
-//             console.log("Player score: " + playerScore + " Computer Score:" + computerScore);
-//             console.log("Pick again");
-//         }
-//     }    
-// }
-
-// plays the game
 let playerScore = 0;
 let computerScore = 0;
