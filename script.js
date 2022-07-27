@@ -28,7 +28,7 @@ function round(playerSelection, computerSelection){
         }  
 }
 
-// plays a game of rock paper scissors best out of 5
+// plays a game of rock paper scissors best  3 out of 5
 function gameOn(){
     for (let i = 0; i < 1000; i++){
         playerSelection = playerHand();

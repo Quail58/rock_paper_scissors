@@ -25,6 +25,10 @@ body {
     font-size: 40px;
 }
 
+.instructions {
+    font-size: 30px;
+}
+
 #buttons {
     display: flex;
     margin: 40px;
