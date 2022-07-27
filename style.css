@@ -13,11 +13,6 @@ body {
     align-items: center;
 }
 
-.scores {
-    display: flex;
-    align-items: center;
-}
-
 .welcome {
     margin: 50px;
     margin-bottom: 20px;
@@ -29,14 +24,14 @@ body {
     font-size: 40px;
 }
 
-.buttons {
+#buttons {
     display: flex;
     margin: 40px;
     justify-content: space-between;
     
 }
 
-#Rock {
+.button {
     margin: 15px;
     background-color: grey;
     font-weight: bolder;
@@ -45,30 +40,12 @@ body {
     font-size: 25px;
 }
 
-#Paper {
-    margin: 15px;
-    background-color: grey;
-    font-weight: bolder;
-    height: 150px;
-    width: 150px;
-    font-size: 25px;
+#scores {
+    display: flex;
+    align-items: center;
 }
 
-#Scissors {
-    margin: 15px;
-    background-color: grey;
-    font-weight: bolder;
-    height: 150px;
-    width: 150px;
-    font-size: 25px;
-}
-
-.player_score {
-    margin: 7.5px;
-    font-size: 25px;
-}
-
-.computer_score {
+.score {
     margin: 7.5px;
     font-size: 25px;
 }
