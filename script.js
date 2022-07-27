@@ -18,10 +18,10 @@ function playerHand(a){
     let computer_score = document.getElementById('computer_score');
     computer_score.innerHTML = computerScore;
 
-    if(playerScore === 3){
+    if(playerScore === 5){
         let win = document.getElementById('instructions');
         win.innerHTML = "You won the game!"
-    } else if(computerScore === 3){
+    } else if(computerScore === 5){
         let win = document.getElementById('instructions');
         win.innerHTML = "Computer won the game!"        
     } else {
