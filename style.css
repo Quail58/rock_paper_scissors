@@ -21,36 +21,54 @@ body {
 .welcome {
     margin: 50px;
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .explain {
     margin: 30px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .buttons {
     display: flex;
     margin: 40px;
     justify-content: space-between;
+    
 }
 
 #Rock {
     margin: 15px;
+    background-color: grey;
+    font-weight: bolder;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
 }
 
 #Paper {
     margin: 15px;
+    background-color: grey;
+    font-weight: bolder;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
 }
 
 #Scissors {
     margin: 15px;
+    background-color: grey;
+    font-weight: bolder;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
 }
 
 .player_score {
     margin: 7.5px;
+    font-size: 25px;
 }
 
 .computer_score {
     margin: 7.5px;
+    font-size: 25px;
 }
