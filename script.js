@@ -15,6 +15,18 @@ function playerHand(){
     return player_choice.toLowerCase();        
 }
 
+const rock = function rock(){
+    console.log('rock')
+}
+
+const paper = function paper(){
+    console.log('paper')
+}
+
+const scissors = function scissors(){
+    console.log('scissors')
+}
+
 // a function that plays one round of rock paper scissors
 function round(playerSelection, computerSelection){
         if( (playerSelection === "rock" && computerSelection === "rock") || (playerSelection === "scissors" && computerSelection === "scissors") || (playerSelection === "paper" && computerSelection === "paper") ){
