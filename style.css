@@ -29,10 +29,14 @@ body {
     font-size: 30px;
 }
 
+#round{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
 #buttons {
     display: flex;
-    margin: 40px;
-    
+    margin: 40px;    
 }
 
 .button {

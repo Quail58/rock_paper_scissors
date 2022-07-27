@@ -20,14 +20,22 @@ function playerHand(a){
 
     if(playerScore === 5){
         let win = document.getElementById('instructions');
-        win.innerHTML = "You won the game!"
-        let next_round = document.getElementById('round');
-        next_round.innerHTML = "Click restart to play again"    
+        win.innerHTML = "You won the game!";
+        let next_round = document.getElementById('round');;
+        next_round.innerHTML = "Refresh the page to play again" ;
+        let buttonRemove = document.getElementById('buttons');
+        buttonRemove.remove();
+        let scoreRemove = document.getElementById('scores');
+        scoreRemove.remove();     
     } else if(computerScore === 5){
         let win = document.getElementById('instructions');
-        win.innerHTML = "Computer won the game!"
+        win.innerHTML = "Computer won the game!";
         let next_round = document.getElementById('round');
-        next_round.innerHTML = "Click restart to play again"        
+        next_round.innerHTML = "Refresh the page to play again";
+        let buttonRemove = document.getElementById('buttons');
+        buttonRemove.remove();
+        let scoreRemove = document.getElementById('scores');
+        scoreRemove.remove();
     } else {
         let win = document.getElementById('instructions');
         win.innerHTML = "Choose your next move!"
