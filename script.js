@@ -17,20 +17,31 @@ function playerHand(a){
     player_score.innerHTML = playerScore;
     let computer_score = document.getElementById('computer_score');
     computer_score.innerHTML = computerScore;
+
+    if(playerScore === 3){
+        let win = document.getElementById('instructions');
+        win.innerHTML = "You won the game!"
+    } else if(computerScore === 3){
+        let win = document.getElementById('instructions');
+        win.innerHTML = "Computer won the game!"        
+    } else {
+        let win = document.getElementById('instructions');
+        win.innerHTML = "Choose your next move!"
+    }
 }
 
 // a function that plays one round of rock paper scissors
 function round(playerSelection, computerSelection){
         if( (playerSelection === "rock" && computerSelection === "rock") || (playerSelection === "scissors" && computerSelection === "scissors") || (playerSelection === "paper" && computerSelection === "paper") ){
-            let tie = document.getElementById('instructions');
-            tie.innerHTML = "It's a tie!"
+            let round = document.getElementById('instructions');
+            round.innerHTML = "It's a tie!"
         } else if ( (playerSelection === "rock" && computerSelection === "scissors") || (playerSelection === "paper" && computerSelection === "rock") || (playerSelection === "scissors" && computerSelection === "paper") ){
-            let tie = document.getElementById('instructions');
-            tie.innerHTML = "You win this round!"
+            let round = document.getElementById('instructions');
+            round.innerHTML = "You win this round!"
             playerScore++;
         } else {
-            let tie = document.getElementById('instructions');
-            tie.innerHTML = "Computer wins this round!"
+            let round = document.getElementById('instructions');
+            round.innerHTML = "Computer wins this round!"
             computerScore++;
         }  
 }
