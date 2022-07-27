@@ -21,9 +21,13 @@ function playerHand(a){
     if(playerScore === 5){
         let win = document.getElementById('instructions');
         win.innerHTML = "You won the game!"
+        let next_round = document.getElementById('round');
+        next_round.innerHTML = "Click restart to play again"    
     } else if(computerScore === 5){
         let win = document.getElementById('instructions');
-        win.innerHTML = "Computer won the game!"        
+        win.innerHTML = "Computer won the game!"
+        let next_round = document.getElementById('round');
+        next_round.innerHTML = "Click restart to play again"        
     } else {
         let win = document.getElementById('instructions');
         win.innerHTML = "Choose your next move!"
