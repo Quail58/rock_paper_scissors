@@ -10,21 +10,9 @@ function computerPlay(){
 }
 
 // a function that asks for a players input
-function playerHand(){
-    let player_choice = prompt("Pick: Rock, Paper, Scissors");
-    return player_choice.toLowerCase();        
-}
-
-const rock = function rock(){
-    console.log('rock')
-}
-
-const paper = function paper(){
-    console.log('paper')
-}
-
-const scissors = function scissors(){
-    console.log('scissors')
+function playerHand(a){
+    console.log(a);
+    return a;
 }
 
 // a function that plays one round of rock paper scissors
