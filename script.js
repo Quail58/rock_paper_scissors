@@ -18,6 +18,7 @@ function playerHand(a){
     let computer_score = document.getElementById('computer_score');
     computer_score.innerHTML = computerScore;
 
+    // checks if a players score gets to five and ends the game
     if(playerScore === 5){
         let win = document.getElementById('instructions');
         win.innerHTML = "You won the game!";
