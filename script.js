@@ -23,20 +23,26 @@ function playerHand(a){
         let win = document.getElementById('instructions');
         win.innerHTML = "You won the game!";
         let next_round = document.getElementById('round');;
-        next_round.innerHTML = "Refresh the page to play again" ;
-        let buttonRemove = document.getElementById('buttons');
-        buttonRemove.remove();
-        let scoreRemove = document.getElementById('scores');
-        scoreRemove.remove();     
-    } else if(computerScore === 5){
-        let win = document.getElementById('instructions');
-        win.innerHTML = "Computer won the game!";
-        let next_round = document.getElementById('round');
-        next_round.innerHTML = "Refresh the page to play again";
+        next_round.innerHTML = "Would you like to play again?" ;
         let buttonRemove = document.getElementById('buttons');
         buttonRemove.remove();
         let scoreRemove = document.getElementById('scores');
         scoreRemove.remove();
+        let refresh = document.createElement("BUTTON");
+        refresh.innerHTML = "PLAY AGAIN"
+        document.body.appendChild(refresh);     
+    } else if(computerScore === 5){
+        let win = document.getElementById('instructions');
+        win.innerHTML = "Computer won the game!";
+        let next_round = document.getElementById('round');
+        next_round.innerHTML = "Would you like to try again?";
+        let buttonRemove = document.getElementById('buttons');
+        buttonRemove.remove();
+        let scoreRemove = document.getElementById('scores');
+        scoreRemove.remove();
+        let refresh = document.createElement("BUTTON");
+        refresh.innerHTML = "PLAY AGAIN"
+        document.body.appendChild(refresh);
     } else {
         let win = document.getElementById('instructions');
         win.innerHTML = "Choose your next move!"
