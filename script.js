@@ -28,8 +28,10 @@ function playerHand(a){
         buttonRemove.remove();
         let scoreRemove = document.getElementById('scores');
         scoreRemove.remove();
+        // creates a button to refresh the page
         let refresh = document.createElement("BUTTON");
         refresh.innerHTML = "PLAY AGAIN"
+        refresh.setAttribute("onclick", "window.location.reload();")
         document.body.appendChild(refresh);     
     } else if(computerScore === 5){
         let win = document.getElementById('instructions');
@@ -40,8 +42,10 @@ function playerHand(a){
         buttonRemove.remove();
         let scoreRemove = document.getElementById('scores');
         scoreRemove.remove();
+        // creates a button to refresh the page
         let refresh = document.createElement("BUTTON");
         refresh.innerHTML = "PLAY AGAIN"
+        refresh.setAttribute("onclick", "window.location.reload();")
         document.body.appendChild(refresh);
     } else {
         let win = document.getElementById('instructions');
